@@ -1,1 +1,147 @@
+/* *My Color Palette:
+* Lightest:         #f8f4d9
+* Dark Blue:        #1d3557
+* Light Blue:       #a8dadc
+* Medium Blue:      #4ab8bb
+* Orange:           #ff914d
+* Red:              #e63946
 
+
+Dark Green: #283618
+Medium Green: #606C38
+Lightest: #FEFAE0
+Light Brown: #DDA15E
+Medium Brown: #BC6C25
+Dark Brown: #6A4C3B
+
+*/
+
+.bg-info {
+  background-color: #fefae0 !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #dda15e;
+  font-weight: 700;
+}
+
+.container-fluid {
+  background-color: #606c38;
+}
+
+.navbar-brand {
+  font-family: "Poller One", sans-seri;
+  font-size: 2.25rem;
+}
+
+.container {
+  color: #283618;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: #fefae0;
+}
+
+.card-body {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.form-control {
+  border: 1px solid;
+}
+
+.btn-info {
+  color: #fefae0; /* Lightest shade for text on info button for contrast */
+  background-color: #606c38; /* Light green for button background */
+  border-color: #283618; /* Dark green for button border */
+}
+
+.form-control {
+  background-color: #fefae0;
+}
+
+.btn {
+  background: #fefae0;
+  border-color: #606c38;
+  color: #283618;
+}
+
+.btn:hover {
+  background-color: #6a4c3b;
+  color: #f1faee;
+}
+
+.btn.btn-outline-primary {
+  background-color: #f1faee;
+  border-color: #457b9d;
+  color: #6a4c3b;
+  border-width: 1px;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus {
+  background-color: #6a4c3b;
+  color: #f1faee;
+  border-color: #6a4c3b;
+}
+
+.btn-check:checked + .btn.btn-outline-primary,
+.btn-check:active + .btn.btn-outline-primary,
+.btn.btn-outline-primary.active,
+.btn.btn-outline-primary.show {
+  background-color: #6a4c3b;
+  color: #f1faee;
+  border-color: #6a4c3b;
+}
+
+.btn-primary:hover {
+  color: #f1faee;
+  font-size: 150%;
+  background-color: #1d3557;
+  margin-top: 12px;
+}
+
+.btn-primary {
+  color: #f1faee;
+  font-size: 150%;
+  background-color: #6a4c3b;
+  margin-top: 12px;
+  margin-right: 50px;
+}
+
+#sumbit {
+  width: 50%;
+}
+
+input[type="radio"]:checked {
+  accent-color: #6a4c3b;
+}
+
+.dropdown-menu {
+  background-color: #f1faee;
+}
+
+.dropdown-item:hover {
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+.form-group {
+  color: #1d3557;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+.text-body {
+  margin-bottom: 8px;
+}
+
+.material-icons {
+  margin-top: 0%;
+  color: #6a4c3b;
+}
