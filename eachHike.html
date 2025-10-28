@@ -22,34 +22,15 @@
     <site-navbar></site-navbar>
 
     <!-- Main content goes here -->
-    <div class="container-fluid text-dark p-5">
-      <div class="container p-5" style="background-color: #606c38">
-        <h1 class="display-4" style="color: #dda15e">
-          Good morning <span id="name-goes-here">friend </span>
-        </h1>
-        <hr />
-        <p>Quote of the day: <span id="quote-goes-here"></span></p>
-      </div>
-    </div>
-
-    <div class="container-fluid bg-light text-dark p-5">
-      <h1>Popular Hikes</h1>
-      <div id="hikes-go-here" class="row"></div>
-    </div>
-
-    <template id="hikeCardTemplate">
-      <div class="col">
-        <div class="card">
-          <img class="card-img-top card-image" src="..." alt="Hike Image" />
-          <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text"></p>
-            <p>Length: <span class="card-length"></span> km</p>
-            <a class="btn btn-primary read-more" href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-    </template>
+    <main class="container py-4">
+      <h1 id="hikeName">Loading...</h1>
+      <img
+        id="hikeImage"
+        class="img-fluid rounded mt-3"
+        src=""
+        alt="Hike image"
+      />
+    </main>
 
     <!-- our own footer goes here -->
     <site-footer></site-footer>
@@ -57,8 +38,13 @@
     <!---------------------------------------------->
     <!-- Your own JavaScript scripts go here      -->
     <!---------------------------------------------->
+    <!---------------------------------------------->
+    <!-- Your own JavaScript scripts go here      -->
+    <!---------------------------------------------->
 
     <script type="module" src="/src/app.js"></script>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/eachHike.js"></script>
+
+    <script type="module" src="/src/app.js"></script>
   </body>
 </html>
