@@ -144,4 +144,5 @@ body {
 .material-icons {
   margin-top: 0%;
   color: #6a4c3b;
+  cursor: pointer;
 }
